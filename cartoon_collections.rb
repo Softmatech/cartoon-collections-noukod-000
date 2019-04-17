@@ -5,10 +5,9 @@ def roll_call_dwarves(array)# code an argument here
 end
 
 def summon_captain_planet(array)# code an argument here
-  # Your code here
   new_array = []
   array.each_with_index { |item, index|
-    new_array << "#{item}!"
+    new_array << "#{item.upcase}!"
   }
   new_array
 end
