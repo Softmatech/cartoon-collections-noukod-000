@@ -21,5 +21,6 @@ def find_the_cheese(array)# code an argument here
   counter = 0
   while counter < array.length
   array.find{|i| i == cheese_types[counter]}
+  counter += 1
 end
 end
