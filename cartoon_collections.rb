@@ -1,13 +1,5 @@
 def roll_call_dwarves(array)# code an argument here
-  counter = 0
-  new_array = []
-  while counter < array.length
-    # new_array <<
-    puts "#{array[0, array.length - 1].join("#{counter + 1} ")}. #{array.last}"
-    # puts "#{counter + 1}"
-    counter += 1
-  end
-  # puts new_array
+    
 end
 
 def summon_captain_planet# code an argument here
