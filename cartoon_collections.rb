@@ -6,9 +6,11 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
+  new_array = []
   array.each_with_index { |item, index|
-    puts "#{item}"
+    new_array << "#{item}!"
   }
+  new_array.upcase
 end
 
 def long_planeteer_calls# code an argument here
