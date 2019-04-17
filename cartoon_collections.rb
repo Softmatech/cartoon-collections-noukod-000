@@ -1,9 +1,8 @@
 def roll_call_dwarves(array)# code an argument here
-  # Your code here
   counter = 0
   new_array = []
   array.each do |elem|
-    new_array << "#{array[0, array.length - 1].join("#{counter}")}. #{array.last}"
+    new_array << "#{array[0, array.length - 1].join("#{counter} ")}. #{array.last}"
     counter += 1
   end
   puts new_array
