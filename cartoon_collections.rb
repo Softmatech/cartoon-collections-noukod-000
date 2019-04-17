@@ -5,6 +5,7 @@ def roll_call_dwarves(array)# code an argument here
   array.each do |elem|
     new_array << "#{counter + 1} #{elem}"
   end
+  new_array
 end
 
 def summon_captain_planet# code an argument here
